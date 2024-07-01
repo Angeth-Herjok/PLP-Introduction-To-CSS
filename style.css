@@ -1,0 +1,48 @@
+body, h1, h2, p,ul, li, a, header, nav, section, footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 1.6;
+}
+
+/* header styling */
+header{
+    background-color: blue;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* navigation styling */
+nav{
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul{
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li{
+    color: white;
+    text-decoration: none;
+}
+section{
+    padding: 20px;
+}
+
+footer{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
